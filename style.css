@@ -1,0 +1,621 @@
+* {
+    box-sizing: border-box;
+}
+
+.body{
+    background-color:#F7F6FF; 
+    font-family: 'Manrope';
+  
+}
+.header{
+    width: 100%;
+     background-color:  #fff;
+      box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+}
+.conteiner{
+   margin: 0 auto;
+    display: flex;
+     
+   width:1400px ; 
+   
+   
+}
+.logo{
+    margin-left: 103px;
+    margin-top: 8px;
+}
+.menu{
+    
+    width: 385px;
+    height: 24px;
+    margin-left: 108px;
+    margin-top: 30px;
+}
+.menu ul{
+ display: flex;
+ justify-content: space-between;
+
+}
+.menu  a{
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Manrope', sans-serif;
+    
+}
+
+
+.button{
+    width: 205px;
+    height: 54px;
+    background: linear-gradient(115.11deg, #9021AC 16.38%, #C8459F 84.56%);
+    border-radius: 9px;
+    text-align: center;
+    margin-left: 159px;
+    margin-top: 15px;
+}
+nav{
+    margin: 0 auto;
+}
+.menu-conteiner{
+    margin: 0 auto;
+    width: 1170px;
+   
+  
+}
+.paragraph-button{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+   margin-top: 14px;
+   line-height: 26px;
+}
+.text-foto{
+    display: flex;
+     width:1877px;
+     height: 325px;
+     margin-top: 82px;
+    
+    
+}
+
+.tirca{
+    font-family: 'Manrope';
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 65px;
+}
+.very{
+    font-family: 'Manrope'; 
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 65px;
+}
+.text{
+    width: 475px;
+    height: 127px;
+    margin-left: -2px;
+}
+.three{
+    font-family: 'Manrope'; 
+    padding-top:14px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.many-buttom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 516px;
+    height: 54px;
+}
+.more-button{
+    background-color: #77B2D3;
+    text-align: center;
+  
+    padding-left: 30px;
+    padding-right:30px;
+    border: none;
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 250px;
+}
+.foto{
+    width: 573px;
+    height: 325px;
+    background-image: url(images/undraw_mobile_wireframe_re_jxui\ 1.png);
+    margin-left: 97px;
+}
+.big-boss{
+    margin-top: 90px;
+    width: 1170px;
+    height: 254px;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    background-color: #fff;
+}
+.name{
+    padding-top: 40px;
+    margin-left: 55px;
+    font-family: 'Manrope';
+    font-size: 38px;
+    font-weight: 700;
+}
+.option{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.gradietn{
+    background: linear-gradient(115.11deg, #9021AC 16.38%, #C8459F 84.56%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: 'Manrope';
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 48px;   
+}
+.numders{
+    text-align: center;
+    border-left: 1px solid #C7C7C7;
+    text-align:left;
+    padding-left: 55px;
+}
+.prost{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Manrope';
+    line-height: 48px;
+}
+.numders:first-child{
+  border: none;
+  padding-left: 15px; 
+}
+.our-work{
+margin-top: 76px;
+font-size: 38px;
+font-weight: 700;
+font-family: 'Manrope';
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 41px;
+  
+}
+.littel-box{
+    width: 220px;
+    height: 378px;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+    border-radius: 15px;
+    background-color: #fff;
+}
+.letters{
+   
+    
+    font-family: 'Manrope';
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    color: #fff;
+    padding-top: 10px;
+}
+.cozak{
+    text-align: center;
+    height: 74px;
+    background-color: #77B2D3;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px; 
+}
+
+.bird{
+    background-image:  url(images/Vector-purple.png);
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+    padding: 5px 22px;
+    margin-left: 17px; 
+    width: 100%;
+    height: 24px;
+    color: #333333;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 400;
+}
+.rol{
+    margin-top: 6px;
+    margin-left: -5px;
+    height: 200px;
+   
+}
+.border{
+    margin-top: 40px ;
+    width: 210px;
+    margin-left: 6px;
+    border: 1px solid  #E2E2E2;
+   
+}
+.text-many{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+    
+}
+.many{
+    
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 24px;
+    font-family: 'Manrope';
+    background: linear-gradient(115.11deg, #9021AC 16.38%, #C8459F 84.56%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+.colorful-botton{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.colorfull{
+    width: 195px;
+    height: 54px;
+    margin-top: 21px;
+    background: linear-gradient(115.11deg, #9021AC 16.38%, #C8459F 84.56%);
+    border-radius: 9px;
+    border: none;
+    padding: 2px;
+    text-align: center;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+.content-with-foto{
+    display: flex;
+}
+.specialist{
+    margin-top: 90px;
+    width: 529px;
+    height: 96px;
+
+}
+.text-specialist{
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 48px;
+text-transform: uppercase;
+color: #333333;
+}
+.mira{
+    width: 600px;
+    height: 513px;
+}
+.second-foto{
+   
+    margin-top: 92px;
+    width: 570px;
+    height: 511px;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    background-image: url(images/undraw_add_friends_re_3xte\ 1\ \(1\).png);
+    background-repeat: no-repeat;
+   
+    
+}
+
+.text-forma{
+    margin-top: 22px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.name-one{
+    padding-left: 20px;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+    border-radius: 7px;
+    margin-top: 22px;
+    width: 270px;
+    height: 57px;
+    border: none;
+    font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 26px;
+   outline: none;
+}
+.phone{
+    padding-left: 20px;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+    border-radius: 7px;
+    margin-top: 22px;
+    width: 270px;
+    height: 57px;
+    border: none;
+    font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 26px;
+   margin-left: 30px;
+   outline: none;
+}
+.textareas{
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+    border-radius: 7px;
+    width: 570px;
+    padding-left: 20px;
+    height: 141px;
+    margin-top: 20px ;
+    border: none;
+   
+    outline: none;
+    resize: none;
+}
+.textareas::placeholder{
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    font-family: 'Manrope';
+}
+label::before{
+    margin-top: 20px;
+    margin-bottom: -8px;
+    content: "";
+    display:inline-block;
+     width: 32px;
+    height: 32px;
+    background-color: white;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+    border-radius: 2px;
+}
+ input[type="checkbox"]{
+    display: none;
+}
+ input[type="checkbox"]:checked+label::before{
+    background: linear-gradient(115.11deg, #9021AC 16.38%, #C8459F 84.56%);
+   
+}
+
+.dolorfull{
+    width: 195px;
+    height: 54px;
+    margin-top: 21px;
+    background: linear-gradient(115.11deg, #9021AC 16.38%, #C8459F 84.56%);
+    border-radius: 9px;
+    border: none;
+    text-align: center;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff; 
+}
+
+
+.text-your-works{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 48px;
+text-transform: uppercase;
+color: #333333;
+}
+.your-works{
+    margin-top: 126px ;
+    width: 280px;
+    height: 48px;
+}
+.two-blockes{
+    display: flex;
+    justify-content: space-between;
+}
+.first-block{
+    width: 570px;
+    height: 518px;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+    border-radius: 15px;
+    margin-top: 41px;
+    background-color: #fff;
+}
+.alibaba{
+    width: 150px;
+    height: 112px;
+    margin-top: 9px;
+    margin-left: 23px;
+    background-image: url(images/Alibaba\ Logo.png);
+}
+.macys{
+    margin-top: 9px;
+    margin-left: 23px;
+    width: 225px;
+    height: 112px;
+    background-image: url(images/Macys\ Logo.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.text-alibaba{
+    margin-top: 4px;
+    margin-left: 28px;
+    width: 508px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Manrope';
+}
+.purple{
+    width: 100%;
+    height: 161px;
+    background-color:#F3F1FE;
+    margin-top: 24px;
+}
+.result{
+    margin-left: 28px;
+    padding-top: 21px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-family: 'Manrope';
+}
+.liner{
+    margin-left: 28px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: nowrap; 
+
+}
+.procetns{
+  
+    width: 185px;
+    height: 79px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+  
+}
+.purple-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: 'Manrope';
+}
+.two-logo{
+    margin-top: 13px;
+    margin-left: 26px;
+    display: flex;
+
+}
+.google{
+    width: 101px;
+    height: 42px;
+    background-image: url(images/logo-google-adwords\ 1.png);
+}
+.Yandex{
+    margin-left: 16px;
+    width: 150px;
+    height: 38px;
+    background-image: url(images/pasted-image-0-12\ 1.png);
+}
+.rovella{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+}
+.information{
+    display: flex;
+    margin-top: 90px; ;
+   
+    padding-top: 52px;
+    
+    height: 321px;
+    background-color: #fff;
+}
+.robaka{
+   
+    margin-left: 60px;
+  
+}
+.logo-fotter{
+    margin-left: -15px;
+    width: 325px;
+    height: 70px;
+}
+.politico{
+   margin-top: 5px;
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   text-decoration-line: underline;
+   cursor: pointer;
+}
+.two-informations{
+   margin-left: 201px;
+   width: 114px;
+   height: 193px;
+}
+.trinka{
+    margin-top: 16px;
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 36px;
+   text-transform: uppercase;
+}
+.mavka{
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 36px;
+}
+.three-informations{
+    width: 215px;
+    height: 144px;
+    margin-left: 214px;
+}
+
+.new-stage{ 
+  padding-top: 10px;    
+}
+.tra-ta-ta{
+    width: 320px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 400px;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+}
+.new-stage ul{
+    display: flex;
+    justify-content: space-around;
+}
+.new-stage a{
+    border-right: 1px black;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+.new-stage a:hover{
+    background-color: #350426;
+    color: white;
+}
+.fotter{
+    margin-top: 60px;
+    width: 100%;
+    background-color: #333333;
+    height: 41px;
+    color: white;
+    text-align: center;
+    padding-top: 4px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+}
